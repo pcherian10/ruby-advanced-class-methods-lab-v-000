@@ -42,7 +42,10 @@ class Song
 
   def self.new_from_filename (file_name)
     file_name = file_name.split([.,-]) #splitting using regex, then first and second would artist and name respectively.
-    
+    file_name[0].strip.artist_name
+    file_name[1].strip.name
+
+
 
 
 
