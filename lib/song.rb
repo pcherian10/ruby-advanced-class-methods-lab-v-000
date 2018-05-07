@@ -47,12 +47,4 @@ class Song
     @artist_name+"-"+@name
   end
 
-
-
-
-  end
-
-
-
-
 end
