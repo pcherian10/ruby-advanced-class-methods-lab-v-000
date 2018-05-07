@@ -37,6 +37,7 @@ class Song
   end
 
   def self.alphabetical
-    @@all.sort_by (|song| [/[a-z]/]
+    @@all.sort_by (|song| [/[a-z]/]}
+
 
 end
